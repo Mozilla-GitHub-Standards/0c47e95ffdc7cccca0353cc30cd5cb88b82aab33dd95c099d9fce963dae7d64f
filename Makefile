@@ -9,6 +9,7 @@ clean:
 .PHONY: summary
 summary: clean
 	mkdir -p output
+	find summary -name "placeholder" -type f -delete
 	./summary.py -d summary > output/summary.json
 
 
