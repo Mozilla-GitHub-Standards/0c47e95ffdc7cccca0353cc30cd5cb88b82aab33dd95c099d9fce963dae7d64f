@@ -28,7 +28,7 @@ class AsciiDiagGenerator(object):
         if level in input_data:
             for paint_data in sorted(input_data[level], key=lambda x: x['time'], reverse=True):
                 if paint_data['parent'] == parent_name or level == 0:
-                    print('{s1:{c}^{n1}} {s2:{c}^{n2}} {s3} {s4}/'.format(s1=paint_data['time'], s2=paint_data['percentage'],
+                    print('{s1:{c}^{n1}} {s2:{c}^{n2}} {s3} {s4}'.format(s1=paint_data['time'], s2=paint_data['percentage'],
                                                                           c=" ", n1=5, n2=5,
                                                                           s3=indent, s4=paint_data['name']))
                     self.paint(input_data, level+1, paint_data['name'])
@@ -43,8 +43,11 @@ def main():
     arg_parser.add_argument('-s', action='store', dest='search_dir_name', default=False,
                         help='folder need to generate ascii diagram', required=True)
     args = arg_parser.parse_args()
-    run_obj = AsciiDiagGenerator(args.search_dir_name)
-    run_obj.run()
+    if os.path.exists(args.search_dir_name):
+        run_obj = AsciiDiagGenerator(args.search_dir_name)
+        run_obj.run()
+    else:
+        print "Please specify correct folder to generate ascii diagram. ex: bugzilla/123456"
 
 if __name__ == '__main__':
     main()
