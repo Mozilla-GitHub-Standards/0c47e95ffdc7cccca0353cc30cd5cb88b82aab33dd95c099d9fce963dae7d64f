@@ -1,0 +1,117 @@
+{
+    "UTC": "2016-05-12T08:13:11", 
+    "summary": {
+        "summary": {
+            "1264535.PageDown_3_Page": {
+                "Startup::XRE_Main": {
+                    "nsInputStreamPump::OnInputStreamReady": {
+                        "nsInputStreamPump::OnStateStop": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "1771": [
+                                    1771
+                                ]
+                            }
+                        }
+                    }, 
+                    "nsViewManager::Dispatch": {
+                        "EventDispatcher::Dispatch": {
+                            "PageDown.timeunit": {
+                                "43": [
+                                    38, 
+                                    44, 
+                                    48
+                                ]
+                            }
+                        }
+                    }, 
+                    "nsRefreshDriver::Tick": {
+                        "EventDispatcher::Dispatch": {
+                            "PageDown.timeunit": {
+                                "34": [
+                                    11, 
+                                    58
+                                ]
+                            }
+                        }, 
+                        "PresShell::Paint": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "614": [
+                                    614
+                                ]
+                            }, 
+                            "PageDown.timeunit": {
+                                "108": [
+                                    108, 
+                                    120, 
+                                    97
+                                ]
+                            }
+                        }, 
+                        "PresShell::Flush (Flush_InterruptibleLayout)": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "183": [
+                                    183
+                                ]
+                            }
+                        }, 
+                        "PresShell::Flush (Flush_Style)": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "341": [
+                                    341
+                                ]
+                            }, 
+                            "PageDown.timeunit": {
+                                "21": [
+                                    21, 
+                                    21
+                                ]
+                            }
+                        }, 
+                        "js::GCRuntime::collect": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "260": [
+                                    260
+                                ]
+                            }
+                        }
+                    }, 
+                    "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                        "nsJSUtils::EvaluateString": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "1050": [
+                                    1050
+                                ]
+                            }
+                        }
+                    }
+                }
+            }, 
+            "1268405.Empty_Page": {
+                "Startup::XRE_Main": {
+                    "nsInputStreamPump::OnInputStreamReady": {
+                        "nsInputStreamPump::OnStateStop": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "863": [
+                                    1000, 
+                                    734, 
+                                    855
+                                ]
+                            }
+                        }
+                    }, 
+                    "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                        "nsJSUtils::EvaluateString": {
+                            "domLoading_to_loadEventEnd.timeunit": {
+                                "502": [
+                                    451, 
+                                    488, 
+                                    569
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
