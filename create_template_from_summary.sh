@@ -26,6 +26,9 @@ echo "[INFO] Copying result to template folder ..."
 mkdir -p template
 cp -r ${TMP_DIR}/* template/
 
+echo "[INFO] Creating placeholders ..."
+find template/ -name "*::*" -print0 | xargs -0 -I % touch %/placeholder
+
 # Remove Temp Folder
 rm -rf "${TMP_DIR}"
 
