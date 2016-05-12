@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import re
 import json
 import argparse
 from argparse import ArgumentDefaultsHelpFormatter
@@ -50,10 +51,10 @@ class SummaryGenerator(object):
             time_sum = 0
             time_counter = 0
             for f in files:
-                if f.endswith('time'):
+                if '.time' in f:
                     has_time = True
                     try:
-                        t = int(f.replace('.time', ''))
+                        t = int(re.sub(r'\.time(\.[0-9]+)?', '', f))
                         time_list.append(t)
                         time_sum += t
                         time_counter += 1
