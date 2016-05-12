@@ -16,5 +16,5 @@ summary: clean
 .PHONY: template
 template:
 	mkdir -p template
-	./create_template_from_summary.sh
+	./create_template.sh
 
