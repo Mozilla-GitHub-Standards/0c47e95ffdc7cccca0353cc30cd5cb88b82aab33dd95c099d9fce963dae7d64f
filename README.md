@@ -8,7 +8,7 @@ The spent time of each component. (from Hasal)
   * `$ python ascii_diag_generator.py -s bugzilla/<BUG_ID>`
 
 * `make template`
-  * generate template folder structrue base on `summary/*/` folders.
+  * generate template folder structrue base on `summary/*/` and `bugzilla/*/` folders.
 
 * `make summary`
   * generate the `output/summary.json` file.
