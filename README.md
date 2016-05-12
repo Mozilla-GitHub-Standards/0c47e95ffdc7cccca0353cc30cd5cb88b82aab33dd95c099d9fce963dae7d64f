@@ -32,6 +32,7 @@ The spent time of each component. (from Hasal)
 * summary
   * The time analysis of each methods. Should identify the timeunit.
   * The `<FOO>.timeunit` and `<NN>.time` means that `When doing <FOO>, the methods spent <NN> ms`.
+  * If there are more than one results have the same time, the `<NN>.time.1`, `<NN>.time.2` ... etc are accepted.
   * ex: When `domLoading_to_loadEventEnd`, `nsHtml5TreeOpExecutor::RunFlushLoop > nsJSUtils::EvaluateString` spent `1050 ms`
 
     ```
