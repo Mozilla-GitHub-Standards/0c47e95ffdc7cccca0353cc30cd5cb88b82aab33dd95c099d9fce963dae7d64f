@@ -22,9 +22,10 @@ The spent time of each component. (from Hasal)
   * Time and percentage of methods of each bugs.
   * Each folders under `bugzilla/<BUG_ID>` have the `<NN>.<MM>` file, which means `<NN> ms` and `<MM> %`.
   * ex: it means `836ms 100% Startup::XRE_Main`
+  * String after <BUG_ID> means the time unit
 
     ```
-    bugzilla/1269684/
+    bugzilla/1269684.font_bold/
     └── Startup::XRE_Main
         ├── 836.100
     ```
