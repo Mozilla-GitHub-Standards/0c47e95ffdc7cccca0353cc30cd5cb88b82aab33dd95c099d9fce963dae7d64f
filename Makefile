@@ -11,7 +11,7 @@ summary: clean
 	@mkdir -p output
 	@find summary -name "placeholder" -type f -delete
 	@./summary.py -d summary > output/summary.json
-	echo "The summary file is generated at output/summary.json."
+	@echo "The summary file is generated at output/summary.json."
 
 
 .PHONY: ascii
