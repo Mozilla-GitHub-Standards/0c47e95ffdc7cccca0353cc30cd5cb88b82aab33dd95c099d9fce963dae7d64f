@@ -4,7 +4,7 @@ The folder structure example:
 
 ```
 .
-├── 1269684
+├── 1269684.font_bold
 │   └── Startup::XRE_Main
 │       ├── 836.100
 │       ├── Timer::Fire
@@ -30,6 +30,8 @@ The folder structure example:
 ```
 
 The file `177.21.2` means `177 ms` and `21.2 %`.
+
+The font_bold means `time_unit`
 
 For more detail, please refer to root folder's [README][ROOT_README].
 
