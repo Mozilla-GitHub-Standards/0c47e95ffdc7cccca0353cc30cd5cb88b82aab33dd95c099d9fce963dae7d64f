@@ -75,11 +75,8 @@ class SummaryGenerator(object):
     def run(self):
         summary_dict = self.generate_summary_dict()
         utc_time = DatetimeConverter.get_string_UTC()
-        ret_dict = {
-            'summary': summary_dict,
-            'UTC': utc_time
-        }
-        print(json.dumps(ret_dict, indent=4))
+        summary_dict['UTC'] = utc_time
+        print(json.dumps(summary_dict, indent=4))
 
 
 def main():
