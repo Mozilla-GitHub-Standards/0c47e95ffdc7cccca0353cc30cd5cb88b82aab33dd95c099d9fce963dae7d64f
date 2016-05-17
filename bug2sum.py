@@ -89,7 +89,7 @@ def main():
                                          formatter_class=ArgumentDefaultsHelpFormatter)
     arg_parser.add_argument('-d', '--dir', dest='root_folder', action='store', default='.',
                             help='the root folder', required=True)
-    arg_parser.add_argument('-f', '--force', dest='force', action='store_true', default='.',
+    arg_parser.add_argument('-f', '--force', dest='force', action='store_true', default=False,
                             help='If time file already exists, then force create new time file.', required=False)
     args = arg_parser.parse_args()
     gen = Bug2SumGenerator(args.root_folder, args.force)
