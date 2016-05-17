@@ -1,7 +1,956 @@
 {
-    "UTC": "2016-05-13T07:57:46", 
+    "UTC": "2016-05-17T10:20:25", 
     "summary": {
-        "1264535.PageDown_3_Page": {
+        "1269676": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "insert_table.timeunit": {
+                            "761": [
+                                761
+                            ]
+                        }
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "34": [
+                            34
+                        ]
+                    }
+                }, 
+                "js::RunScript": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "642": [
+                            642
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "75": [
+                            75
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "111": [
+                                111
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "493": [
+                                493
+                            ]
+                        }
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "97": [
+                                97
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1372": [
+                                1372
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "insert_table.timeunit": {
+                        "86": [
+                            86
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "177": [
+                            177
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "6": [
+                            6
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "insert_table.timeunit": {
+                        "312": [
+                            312
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "415": [
+                            415
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "11": [
+                                11
+                            ]
+                        }
+                    }, 
+                    "PresShell::Paint": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "48": [
+                                48
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269948": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "replace_all.timeunit": {
+                            "1310": [
+                                1310
+                            ]
+                        }, 
+                        "undo.timeunit": {
+                            "15": [
+                                15
+                            ]
+                        }, 
+                        "redo.timeunit": {
+                            "12": [
+                                12
+                            ]
+                        }
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "38": [
+                            38
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "2451": [
+                            2451
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "1915": [
+                            1915
+                        ]
+                    }, 
+                    "undo.timeunit": {
+                        "12": [
+                            12
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "7": [
+                            7
+                        ]
+                    }, 
+                    "redo.timeunit": {
+                        "2": [
+                            2
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "146": [
+                                146
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1153": [
+                                1153
+                            ]
+                        }
+                    }
+                }, 
+                "nsJSUtils::EvaluateString": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "153": [
+                            153
+                        ]
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "113": [
+                                113
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1714": [
+                                1714
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "621": [
+                            621
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "41": [
+                            41
+                        ]
+                    }, 
+                    "undo.timeunit": {
+                        "1": [
+                            1
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "76": [
+                            76
+                        ]
+                    }, 
+                    "redo.timeunit": {
+                        "1": [
+                            1
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "replace_all.timeunit": {
+                        "462": [
+                            462
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "702": [
+                            702
+                        ]
+                    }, 
+                    "undo.timeunit": {
+                        "16": [
+                            16
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "20": [
+                                20
+                            ]
+                        }
+                    }, 
+                    "redo.timeunit": {
+                        "1": [
+                            1
+                        ]
+                    }, 
+                    "PresShell::Paint": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "33": [
+                                33
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269674": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "cut.timeunit": {
+                            "47": [
+                                47
+                            ]
+                        }, 
+                        "select_all.timeunit": {
+                            "74": [
+                                74
+                            ]
+                        }, 
+                        "insert_image.timeunit": {
+                            "866": [
+                                866
+                            ]
+                        }, 
+                        "paste.timeunit": {
+                            "17": [
+                                17
+                            ]
+                        }, 
+                        "copy.timeunit": {
+                            "39": [
+                                39
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "cut.timeunit": {
+                        "2": [
+                            2
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "707": [
+                            707
+                        ]
+                    }, 
+                    "copy.timeunit": {
+                        "5": [
+                            5
+                        ]
+                    }, 
+                    "select_all.timeunit": {
+                        "5": [
+                            5
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "451": [
+                            451
+                        ]
+                    }, 
+                    "paste.timeunit": {
+                        "1": [
+                            1
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "146": [
+                                146
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "460": [
+                                460
+                            ]
+                        }
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "113": [
+                                113
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1389": [
+                                1389
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "242": [
+                            242
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "518": [
+                            518
+                        ]
+                    }, 
+                    "paste.timeunit": {
+                        "95": [
+                            95
+                        ]
+                    }, 
+                    "cut.timeunit": {
+                        "72": [
+                            72
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "cut.timeunit": {
+                        "30": [
+                            30
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "575": [
+                            575
+                        ]
+                    }, 
+                    "copy.timeunit": {
+                        "10": [
+                            10
+                        ]
+                    }, 
+                    "select_all.timeunit": {
+                        "16": [
+                            16
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "687": [
+                            687
+                        ]
+                    }, 
+                    "paste.timeunit": {
+                        "26": [
+                            26
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1268405": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "121": [
+                                121
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "1001": [
+                                1000, 
+                                1416, 
+                                734, 
+                                855
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateTransfer": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "52": [
+                                52
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "domLoading_to_loadEventEnd.timeunit": {
+                        "777": [
+                            777
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "domLoading_to_loadEventEnd.timeunit": {
+                        "572": [
+                            572
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "nsJSUtils::EvaluateString": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "498": [
+                                451, 
+                                486, 
+                                488, 
+                                569
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269944": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "replace_all.timeunit": {
+                            "712": [
+                                712
+                            ]
+                        }
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "46": [
+                            46
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1911": [
+                            1911
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "36": [
+                            36
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "9": [
+                            9
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "113": [
+                                113
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "868": [
+                                868
+                            ]
+                        }
+                    }
+                }, 
+                "nsJSUtils::EvaluateString": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "264": [
+                            264
+                        ]
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "106": [
+                                106
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1617": [
+                                1617
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "717": [
+                            717
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "20": [
+                            20
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "92": [
+                            92
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "56": [
+                                56
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "503": [
+                            503
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "243": [
+                            243
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "17": [
+                                17
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269684": {
+            "Startup::XRE_Main": {
+                "nsViewManager:DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "insert_table.timeunit": {
+                            "133": [
+                                133
+                            ]
+                        }, 
+                        "page_break.timeunit": {
+                            "6": [
+                                6
+                            ]
+                        }, 
+                        "font_bold.timeunit": {
+                            "16": [
+                                16
+                            ]
+                        }, 
+                        "insert_image.timeunit": {
+                            "63": [
+                                63
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "insert_table.timeunit": {
+                        "74": [
+                            74
+                        ]
+                    }, 
+                    "font_bold.timeunit": {
+                        "43": [
+                            43
+                        ]
+                    }, 
+                    "page_break.timeunit": {
+                        "9": [
+                            9
+                        ]
+                    }, 
+                    "domLoading_to_loadEventEnd.timeunit": {
+                        "177": [
+                            177
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "232": [
+                            232
+                        ]
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "11": [
+                                11
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "158": [
+                                158
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "insert_table.timeunit": {
+                        "6": [
+                            6
+                        ]
+                    }, 
+                    "domLoading_to_loadEventEnd.timeunit": {
+                        "146": [
+                            146
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "so on": {
+                        "insert_table.timeunit": {
+                            "0": [
+                                0
+                            ]
+                        }, 
+                        "font_bold.timeunit": {
+                            "0": [
+                                0
+                            ]
+                        }, 
+                        "page_break.timeunit": {
+                            "0": [
+                                0
+                            ]
+                        }, 
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "0": [
+                                0
+                            ]
+                        }, 
+                        "insert_image.timeunit": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    }, 
+                    "PreShell::Flush (Flush_InterruptibleLayout)": {
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "22": [
+                                22
+                            ]
+                        }
+                    }, 
+                    "PreShell::Paint": {
+                        "insert_table.timeunit": {
+                            "68": [
+                                68
+                            ]
+                        }, 
+                        "font_bold.timeunit": {
+                            "35": [
+                                35
+                            ]
+                        }, 
+                        "nsLayoutUtils::PaintFrame": {
+                            "page_break.timeunit": {
+                                "4": [
+                                    4
+                                ]
+                            }, 
+                            "nsDisplayList::PaintRoot": {
+                                "insert_image.timeunit": {
+                                    "90": [
+                                        90
+                                    ]
+                                }
+                            }, 
+                            "nsLayoutUtils::PaintFrame::BuildDisplayList": {
+                                "insert_image.timeunit": {
+                                    "64": [
+                                        64
+                                    ]
+                                }
+                            }
+                        }, 
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "105": [
+                                105
+                            ]
+                        }
+                    }, 
+                    "PreShell::Flush (Flush_Style)": {
+                        "font_bold.timeunit": {
+                            "16": [
+                                16
+                            ]
+                        }, 
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "49": [
+                                49
+                            ]
+                        }, 
+                        "insert_image.timeunit": {
+                            "55": [
+                                55
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269663": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "insert_image.timeunit": {
+                            "804": [
+                                804
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1460": [
+                            1460
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "12": [
+                            12
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "426": [
+                            426
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "164": [
+                                164
+                            ]
+                        }, 
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "43": [
+                                43
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "496": [
+                                496
+                            ]
+                        }
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "188": [
+                                188
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1484": [
+                                1484
+                            ]
+                        }
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "19": [
+                            19
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "800": [
+                            800
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "595": [
+                            595
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "897": [
+                            897
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "24": [
+                            24
+                        ]
+                    }, 
+                    "insert_image.timeunit": {
+                        "774": [
+                            774
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1269664": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "insert_table.timeunit": {
+                            "991": [
+                                991
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "insert_table.timeunit": {
+                        "151": [
+                            151
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "216": [
+                            216
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "121": [
+                                121
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "265": [
+                                265
+                            ]
+                        }
+                    }
+                }, 
+                "nsJSUtils::EvaluateString": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "249": [
+                            249
+                        ]
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "107": [
+                                107
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1367": [
+                                1367
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "insert_table.timeunit": {
+                        "50": [
+                            50
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "716": [
+                            716
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "insert_table.timeunit": {
+                        "311": [
+                            311
+                        ]
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "526": [
+                            526
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1264535": {
             "Startup::XRE_Main": {
                 "nsInputStreamPump::OnInputStreamReady": {
                     "nsInputStreamPump::OnStateStop": {
@@ -79,32 +1028,6 @@
                         "domLoading_to_loadEventEnd.timeunit": {
                             "1050": [
                                 1050
-                            ]
-                        }
-                    }
-                }
-            }
-        }, 
-        "1268405.Empty_Page": {
-            "Startup::XRE_Main": {
-                "nsInputStreamPump::OnInputStreamReady": {
-                    "nsInputStreamPump::OnStateStop": {
-                        "domLoading_to_loadEventEnd.timeunit": {
-                            "863": [
-                                1000, 
-                                734, 
-                                855
-                            ]
-                        }
-                    }
-                }, 
-                "nsHtml5TreeOpExecutor::RunFlushLoop": {
-                    "nsJSUtils::EvaluateString": {
-                        "domLoading_to_loadEventEnd.timeunit": {
-                            "502": [
-                                451, 
-                                488, 
-                                569
                             ]
                         }
                     }
