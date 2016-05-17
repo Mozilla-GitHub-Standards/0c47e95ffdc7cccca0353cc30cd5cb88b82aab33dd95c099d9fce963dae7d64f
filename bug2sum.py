@@ -24,18 +24,23 @@ class Bug2SumGenerator(object):
             exit(-1)
 
     @staticmethod
-    def _touch(filename, time=None, force=False):
+    def _touch(filename, time=None):
         if not os.path.exists(filename):
             try:
                 with open(filename, 'a'):
                     os.utime(filename, time)
             except:
                 print('[ERROR] cannot create {} file.'.format(filename))
-        elif force:
+
+    @staticmethod
+    def _check_timefile(timeunit_rel_path, time_fname):
+        path = os.path.join(timeunit_rel_path, time_fname)
+        if os.path.exists(path):
             for x in range(1, 1000):
-                force_name = filename + '.' + str(x)
-                if not os.path.exists(force_name):
-                    Bug2SumGenerator._touch(force_name)
+                tmp_path = path + '.' + str(x)
+                if not os.path.exists(tmp_path):
+                    return tmp_path
+        return path
 
     @staticmethod
     def _get_dir_basename(path):
@@ -57,7 +62,12 @@ class Bug2SumGenerator(object):
                 for f in files:
                     time_fname = f.split('.')[0] + Bug2SumGenerator._TIME_EXT
                     time_path = os.path.join(timeunit_path, time_fname)
-                    Bug2SumGenerator._touch(time_path)
+                    if self.force:
+                        timeunit_rel_path = timeunit_path.replace(self.tmp_dir, Bug2SumGenerator._SUMMARY_DIR)
+                        time_path_force = Bug2SumGenerator._check_timefile(timeunit_rel_path, time_fname)
+                        Bug2SumGenerator._touch(time_path_force)
+                    else:
+                        Bug2SumGenerator._touch(time_path)
             for f in files:
                 os.remove(os.path.join(root, f))
 
