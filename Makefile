@@ -16,6 +16,7 @@ template: clean
 .PHONY: summary
 summary: template
 	@mkdir -p output
+	@rm -rf output/summary.json
 	@./summary.py -d summary > output/summary.json
 	@echo "The summary file is generated at output/summary.json."
 
