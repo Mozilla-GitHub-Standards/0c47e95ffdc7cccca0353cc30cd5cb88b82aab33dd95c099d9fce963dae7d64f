@@ -6,7 +6,10 @@ from argparse import ArgumentDefaultsHelpFormatter
 class AsciiDiagGenerator(object):
 
     def __init__(self, input_dir_name):
-        self.dir_name = input_dir_name
+        if input_dir_name.endswith(os.sep):
+            self.dir_name = input_dir_name
+        else:
+            self.dir_name = input_dir_name + os.sep
 
     def gen_data(self):
         result_dict = {}
