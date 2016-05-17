@@ -14,22 +14,28 @@ class Bug2SumGenerator(object):
     _TIMEUNIT_EXT = '.timeunit'
     _TIME_EXT = '.time'
 
-    def __init__(self, root_folder):
+    def __init__(self, root_folder, force=False):
         if Bug2SumGenerator.check_root_folder(root_folder):
             self.root_folder = root_folder
+            self.force = force
             self.tmp_dir = tempfile.mkdtemp()
         else:
             print('Cannot found the Bug_ID and timeunit from {} folder.'.format(root_folder))
             exit(-1)
 
     @staticmethod
-    def _touch(filename, time=None):
+    def _touch(filename, time=None, force=False):
         if not os.path.exists(filename):
             try:
                 with open(filename, 'a'):
                     os.utime(filename, time)
             except:
                 print('[ERROR] cannot create {} file.'.format(filename))
+        elif force:
+            for x in range(1, 1000):
+                force_name = filename + '.' + str(x)
+                if not os.path.exists(force_name):
+                    Bug2SumGenerator._touch(force_name)
 
     @staticmethod
     def _get_dir_basename(path):
@@ -73,8 +79,10 @@ def main():
                                          formatter_class=ArgumentDefaultsHelpFormatter)
     arg_parser.add_argument('-d', '--dir', dest='root_folder', action='store', default='.',
                             help='the root folder', required=True)
+    arg_parser.add_argument('-f', '--force', dest='force', action='store_true', default='.',
+                            help='If time file already exists, then force create new time file.', required=False)
     args = arg_parser.parse_args()
-    gen = Bug2SumGenerator(args.root_folder)
+    gen = Bug2SumGenerator(args.root_folder, args.force)
     gen.run()
 
 if __name__ == '__main__':
