@@ -30,6 +30,11 @@ bug2sum: template
 	@./bug2sum.py -d $(filter-out $@,$(MAKECMDGOALS))
 
 
+.PHONY: bug2sum-all
+bug2sum-all: template
+	@find bugzilla/ -maxdepth 1 -type d -regex ".*[0-9][\.].*" -exec ./bug2sum.py -d {} \;
+
+
 # For "make ascii FOO", the "make FOO" will match here.
 # force to match everything
 %: force
