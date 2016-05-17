@@ -27,10 +27,11 @@ done
 # Remove all files (timeunit and time) in Temp Folder
 pushd ${TMP_DIR}/
     echo '[INFO] Removing the "timeunit" and "time" folders and files ...'
-    find . -type d -name "*.timeunit" -delete
     find . -type f -name "*.time" -delete
     find . -type f -name "*.time.*" -delete
     find . -type f -regex ".*[0-9]\{1,\}\([.][0-9]\{1,3\}\)\{1,2\}$" -delete
+    find . -type f -regex ".*[0-9]+\(\.[0-9]+\)+" -delete
+    find . -type d -name "*.timeunit" -delete
 popd
 
 # Copy Temp to Template folder
