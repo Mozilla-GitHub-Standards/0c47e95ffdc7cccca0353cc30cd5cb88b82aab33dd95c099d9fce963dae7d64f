@@ -24,7 +24,7 @@ clean-placeholder:
 
 .PHONY: clean-summary-so-on
 clean-summary-so-on:
-	@find summary -name "so on" -type d -exec rm -rf {} \;
+	@find summary -name "so on" -type d -exec rm -rf {} \; 2> /dev/null || echo ''
 
 
 .PHONY: template
@@ -34,7 +34,7 @@ template: clean-placeholder
 
 
 .PHONY: summary
-summary: template clean-summary-so-on
+summary: dev-env template clean-summary-so-on
 	@mkdir -p output
 	@rm -rf output/summary.json output/summary.xmind
 	@./summary.py -d summary > output/summary.json
@@ -50,14 +50,13 @@ ascii: template
 .PHONY: bug2sum
 bug2sum: template clean-summary-so-on
 	@./bug2sum.py -d $(filter-out $@,$(MAKECMDGOALS))
-	@find summary -name "so on" -type d -exec rm -rf {} \;
+	@find summary -name "so on" -type d -exec rm -rf {} \; 2> /dev/null || echo ''
 
 
 .PHONY: bug2sum-all
 bug2sum-all: template
 	@find bugzilla/ -maxdepth 1 -type d -regex ".*[0-9][\.].*" -exec ./bug2sum.py -d {} \;
-	@find summary -name "so on" -type d -exec rm -rf {} \;
-
+	@find summary -name "so on" -type d -exec rm -rf {} \; 2> /dev/null || echo ''
 
 # For "make ascii FOO", the "make FOO" will match here.
 # force to match everything
