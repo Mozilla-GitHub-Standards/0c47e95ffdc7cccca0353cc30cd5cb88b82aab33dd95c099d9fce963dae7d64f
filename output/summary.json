@@ -1,5 +1,5 @@
 {
-    "UTC": "2016-05-18T06:27:35", 
+    "UTC": "2016-05-18T06:55:07", 
     "summary": {
         "1269676": {
             "Startup::XRE_Main": {
@@ -669,33 +669,6 @@
                     }
                 }, 
                 "nsRefreshDriver::Tick": {
-                    "so on": {
-                        "insert_table.timeunit": {
-                            "0": [
-                                0
-                            ]
-                        }, 
-                        "font_bold.timeunit": {
-                            "0": [
-                                0
-                            ]
-                        }, 
-                        "page_break.timeunit": {
-                            "0": [
-                                0
-                            ]
-                        }, 
-                        "domLoading_to_loadEventEnd.timeunit": {
-                            "0": [
-                                0
-                            ]
-                        }, 
-                        "insert_image.timeunit": {
-                            "0": [
-                                0
-                            ]
-                        }
-                    }, 
                     "PreShell::Flush (Flush_InterruptibleLayout)": {
                         "domLoading_to_loadEventEnd.timeunit": {
                             "22": [
