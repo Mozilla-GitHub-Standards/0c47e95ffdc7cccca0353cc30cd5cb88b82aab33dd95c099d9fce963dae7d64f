@@ -83,7 +83,7 @@ def main():
     arg_parser = argparse.ArgumentParser(description='Summary Generator',
                                          formatter_class=ArgumentDefaultsHelpFormatter)
     arg_parser.add_argument('-d', '--dir', dest='root_folder', action='store', default='.',
-                        help='the root folder', required=True)
+                            help='the root folder', required=True)
     args = arg_parser.parse_args()
     sg = SummaryGenerator(args.root_folder)
     sg.run()

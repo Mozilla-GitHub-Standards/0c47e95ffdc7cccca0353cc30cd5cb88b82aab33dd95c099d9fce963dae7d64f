@@ -4,7 +4,7 @@ The folder structure example:
 
 ```
 .
-├── 1264535.PageDown_3_Page
+├── 1264535
 │   └── Startup::XRE_Main
 │       ├── nsHtml5TreeOpExecutor::RunFlushLoop
 │       │   └── nsJSUtils::EvaluateString
@@ -47,7 +47,7 @@ The folder structure example:
 │                   └── 48.time
 ```
 
-The folder `1264535.PageDown_3_Page` means `Bug 1264535` with the description `PageDown_3_Page`.
+The folder `1264535` means `Bug 1264535`.
 
 The folder `PageDown.timeunit` and `domLoading_to_loadEventEnd.timeunit` means different time unit (action).
 

@@ -3,15 +3,18 @@ The spent time of each component. (from Hasal)
 
 ## Commands
 
-* ascii_diag_generator.py
+* `make ascii bugzilla/<BUG_ID>.<TIMEUNIT>`
   * generate ASCII diagram
-  * `$ python ascii_diag_generator.py -s bugzilla/<BUG_ID>`
+  * or `$ python ascii_diag_generator.py -s bugzilla/<BUG_ID>.<TIMEUNIT>`
 
 * `make template`
-  * generate template folder structrue base on `summary/*/` and `bugzilla/*/` folders.
+  * generate template folder structure base on `summary/*/` and `bugzilla/*/` folders.
+
+* `make bug2sum-all`
+  * generate the `summary` base on the data under `bugzilla` folder.
 
 * `make summary`
-  * generate the `output/summary.json` file.
+  * generate the `output/summary.json` and `output/summary.xmind` files.
 
 * `make clean`
   * clean files under `output` folder.
@@ -37,7 +40,7 @@ The spent time of each component. (from Hasal)
   * ex: When `domLoading_to_loadEventEnd`, `nsHtml5TreeOpExecutor::RunFlushLoop > nsJSUtils::EvaluateString` spent `1050 ms`
 
     ```
-    summary/1264535.PageDown_3_Page/
+    summary/1264535/
     └── Startup::XRE_Main
         ├── nsHtml5TreeOpExecutor::RunFlushLoop
         │   └── nsJSUtils::EvaluateString
