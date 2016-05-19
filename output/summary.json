@@ -1,5 +1,5 @@
 {
-    "UTC": "2016-05-18T10:21:48", 
+    "UTC": "2016-05-19T06:33:47", 
     "summary": {
         "1269676": {
             "Startup::XRE_Main": {
@@ -414,6 +414,94 @@
                 }
             }
         }, 
+        "1269690": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "106": [
+                                106
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1800": [
+                            1800
+                        ]
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1650": [
+                                1650
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1127": [
+                            1127
+                        ]
+                    }, 
+                    "js::RunScript": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1102": [
+                                1102
+                            ]
+                        }
+                    }, 
+                    "nsJSContex::GarbageCollectNow": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "14": [
+                                14
+                            ]
+                        }
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "323": [
+                                323
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "624": [
+                            624
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "113": [
+                                113
+                            ]
+                        }
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "137": [
+                                137
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "2337": [
+                            2337
+                        ]
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "2168": [
+                                2168
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
         "1269665": {
             "Startup::XRE_Main": {
                 "nsViewManager::DispatchEvent": {
@@ -621,119 +709,255 @@
                 }
             }
         }, 
-        "1269944": {
+        "1269687": {
             "Startup::XRE_Main": {
-                "nsViewManager::DispatchEvent": {
-                    "EventDispatcher::Dispatch": {
-                        "replace_all.timeunit": {
-                            "712": [
-                                712
-                            ]
-                        }
-                    }, 
-                    "between_navigationstart_to_domloading.timeunit": {
-                        "46": [
-                            46
-                        ]
-                    }
-                }, 
-                "Timer::Fire": {
-                    "between_domloading_to_loadeventend.timeunit": {
-                        "1911": [
-                            1911
-                        ]
-                    }, 
-                    "replace_all.timeunit": {
-                        "36": [
-                            36
-                        ]
-                    }, 
-                    "between_navigationstart_to_domloading.timeunit": {
-                        "9": [
-                            9
-                        ]
-                    }
-                }, 
-                "nsHtml5TreeOpExecutor::RunFlushLoop": {
-                    "EventDispatcher::Dispatch": {
-                        "between_domloading_to_loadeventend.timeunit": {
-                            "113": [
-                                113
-                            ]
-                        }
-                    }, 
-                    "nsJSUtils::EvaluateString": {
-                        "between_domloading_to_loadeventend.timeunit": {
-                            "868": [
-                                868
-                            ]
-                        }
-                    }
-                }, 
-                "nsJSUtils::EvaluateString": {
-                    "between_domloading_to_loadeventend.timeunit": {
-                        "264": [
-                            264
-                        ]
-                    }
-                }, 
                 "nsInputStreamPump::OnInputStreamReady": {
                     "nsInputStreamPump::OnStateStart": {
-                        "between_domloading_to_loadeventend.timeunit": {
-                            "106": [
-                                106
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "119": [
+                                119
                             ]
                         }
                     }, 
                     "nsInputStreamPump::OnStateStop": {
-                        "between_domloading_to_loadeventend.timeunit": {
-                            "1617": [
-                                1617
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "1425": [
+                                1425
                             ]
                         }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "1598": [
+                            1598
+                        ]
                     }
                 }, 
                 "js::RunScript": {
-                    "between_domloading_to_loadeventend.timeunit": {
-                        "717": [
-                            717
-                        ]
+                    "js::RunScript": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "727": [
+                                727
+                            ]
+                        }
                     }, 
-                    "replace_all.timeunit": {
-                        "20": [
-                            20
-                        ]
-                    }, 
-                    "between_navigationstart_to_domloading.timeunit": {
-                        "92": [
-                            92
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "808": [
+                            808
                         ]
                     }
                 }, 
                 "nsRefreshDriver::Tick": {
                     "PresShell::Paint": {
-                        "between_navigationstart_to_domloading.timeunit": {
-                            "56": [
-                                56
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "276": [
+                                276
+                            ]
+                        }
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "200": [
+                                200
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "648": [
+                            648
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "143": [
+                                143
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "775": [
+                                775
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "947": [
+                            947
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1269689": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "120": [
+                                120
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "1374": [
+                                1374
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "1541": [
+                            1541
+                        ]
+                    }
+                }, 
+                "js::RunScript": {
+                    "js::RunScript": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "636": [
+                                636
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "719": [
+                            719
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "254": [
+                                254
+                            ]
+                        }
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "176": [
+                                176
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "548": [
+                            548
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "136": [
+                                136
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "490": [
+                                490
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "651": [
+                            651
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1269946": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "109": [
+                                109
                             ]
                         }
                     }, 
                     "between_domloading_to_loadeventend.timeunit": {
-                        "503": [
-                            503
+                        "1651": [
+                            1651
                         ]
                     }, 
-                    "replace_all.timeunit": {
-                        "243": [
-                            243
-                        ]
-                    }, 
-                    "PresShell::Flush (Flush_Style)": {
-                        "between_navigationstart_to_domloading.timeunit": {
-                            "17": [
-                                17
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1495": [
+                                1495
                             ]
                         }
+                    }
+                }, 
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "boldface_the_selected_text.timeunit": {
+                            "135": [
+                                135
+                            ]
+                        }, 
+                        "text_selection.timeunit": {
+                            "205": [
+                                205
+                            ]
+                        }
+                    }, 
+                    "boldface_the_selected_text.timeunit": {
+                        "136": [
+                            136
+                        ]
+                    }, 
+                    "text_selection.timeunit": {
+                        "209": [
+                            209
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1474": [
+                            1474
+                        ]
+                    }, 
+                    "js::RunScript": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1452": [
+                                1452
+                            ]
+                        }
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "text_selection.timeunit": {
+                            "187": [
+                                187
+                            ]
+                        }
+                    }, 
+                    "text_selection.timeunit": {
+                        "309": [
+                            309
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "757": [
+                                757
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "936": [
+                            936
+                        ]
                     }
                 }
             }
@@ -881,6 +1105,428 @@
                                 55
                             ]
                         }
+                    }
+                }
+            }
+        }, 
+        "1269695": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "page_end.timeunit": {
+                            "5630": [
+                                5630
+                            ]
+                        }
+                    }, 
+                    "page_end.timeunit": {
+                        "5632": [
+                            5632
+                        ]
+                    }
+                }, 
+                "js::RunScript": {
+                    "js::RunScript": {
+                        "page_end.timeunit": {
+                            "1230": [
+                                1230
+                            ]
+                        }
+                    }, 
+                    "page_end.timeunit": {
+                        "1230": [
+                            1230
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "167": [
+                                167
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1641": [
+                            1641
+                        ]
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1439": [
+                                1439
+                            ]
+                        }
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "149": [
+                                149
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "2446": [
+                            2446
+                        ]
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "2210": [
+                                2210
+                            ]
+                        }
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "4377": [
+                            4377
+                        ]
+                    }, 
+                    "js::RunScript": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "3961": [
+                                3961
+                            ]
+                        }
+                    }, 
+                    "nsJSContex::GarbageCollectNow": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "367": [
+                                367
+                            ]
+                        }
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "912": [
+                                912
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1522": [
+                            1522
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "371": [
+                                371
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269953": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "119": [
+                                119
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "1570": [
+                                1570
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "1742": [
+                            1742
+                        ]
+                    }
+                }, 
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "select_all.timeunit": {
+                            "401": [
+                                401
+                            ]
+                        }, 
+                        "delete_all.timeunit": {
+                            "177": [
+                                177
+                            ]
+                        }
+                    }, 
+                    "select_all.timeunit": {
+                        "407": [
+                            407
+                        ]
+                    }, 
+                    "delete_all.timeunit": {
+                        "177": [
+                            177
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "js::RunScript": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "1096": [
+                                1096
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "1125": [
+                            1125
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "428": [
+                                428
+                            ]
+                        }
+                    }, 
+                    "PresShell::Flush": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "470": [
+                                470
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "1380": [
+                            1380
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "nsJSUtils::EvaluateString": {
+                        "between_navigationStart_to_loadeventend.timeunit": {
+                            "2151": [
+                                2151
+                            ]
+                        }
+                    }, 
+                    "between_navigationStart_to_loadeventend.timeunit": {
+                        "2329": [
+                            2329
+                        ]
+                    }
+                }
+            }
+        }, 
+        "1269944": {
+            "Startup::XRE_Main": {
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "replace_all.timeunit": {
+                            "712": [
+                                712
+                            ]
+                        }
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "46": [
+                            46
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1911": [
+                            1911
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "36": [
+                            36
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "9": [
+                            9
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "EventDispatcher::Dispatch": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "113": [
+                                113
+                            ]
+                        }
+                    }, 
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "868": [
+                                868
+                            ]
+                        }
+                    }
+                }, 
+                "nsJSUtils::EvaluateString": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "264": [
+                            264
+                        ]
+                    }
+                }, 
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "106": [
+                                106
+                            ]
+                        }
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1617": [
+                                1617
+                            ]
+                        }
+                    }
+                }, 
+                "js::RunScript": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "717": [
+                            717
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "20": [
+                            20
+                        ]
+                    }, 
+                    "between_navigationstart_to_domloading.timeunit": {
+                        "92": [
+                            92
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "56": [
+                                56
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "503": [
+                            503
+                        ]
+                    }, 
+                    "replace_all.timeunit": {
+                        "243": [
+                            243
+                        ]
+                    }, 
+                    "PresShell::Flush (Flush_Style)": {
+                        "between_navigationstart_to_domloading.timeunit": {
+                            "17": [
+                                17
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 
+        "1269691": {
+            "Startup::XRE_Main": {
+                "nsInputStreamPump::OnInputStreamReady": {
+                    "nsInputStreamPump::OnStateStart": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "141": [
+                                141
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1844": [
+                            1844
+                        ]
+                    }, 
+                    "nsInputStreamPump::OnStateStop": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1645": [
+                                1645
+                            ]
+                        }
+                    }
+                }, 
+                "nsViewManager::DispatchEvent": {
+                    "EventDispatcher::Dispatch": {
+                        "scroll2end_wheel.timeunit": {
+                            "425": [
+                                425
+                            ]
+                        }
+                    }, 
+                    "scroll2end_wheel.timeunit": {
+                        "697": [
+                            697
+                        ]
+                    }
+                }, 
+                "Timer::Fire": {
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1825": [
+                            1825
+                        ]
+                    }, 
+                    "js::RunScript": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "1795": [
+                                1795
+                            ]
+                        }, 
+                        "scroll2end_wheel.timeunit": {
+                            "657": [
+                                657
+                            ]
+                        }
+                    }, 
+                    "scroll2end_wheel.timeunit": {
+                        "697": [
+                            697
+                        ]
+                    }
+                }, 
+                "nsRefreshDriver::Tick": {
+                    "PresShell::Paint": {
+                        "scroll2end_wheel.timeunit": {
+                            "1258": [
+                                1258
+                            ]
+                        }
+                    }, 
+                    "scroll2end_wheel.timeunit": {
+                        "1717": [
+                            1717
+                        ]
+                    }
+                }, 
+                "nsHtml5TreeOpExecutor::RunFlushLoop": {
+                    "nsJSUtils::EvaluateString": {
+                        "between_domloading_to_loadeventend.timeunit": {
+                            "870": [
+                                870
+                            ]
+                        }
+                    }, 
+                    "between_domloading_to_loadeventend.timeunit": {
+                        "1048": [
+                            1048
+                        ]
                     }
                 }
             }
@@ -1197,7 +1843,7 @@
                 }, 
                 "nsViewManager::Dispatch": {
                     "EventDispatcher::Dispatch": {
-                        "PageDown.timeunit": {
+                        "page_down.timeunit": {
                             "43": [
                                 38, 
                                 44, 
@@ -1208,7 +1854,7 @@
                 }, 
                 "nsRefreshDriver::Tick": {
                     "EventDispatcher::Dispatch": {
-                        "PageDown.timeunit": {
+                        "page_down.timeunit": {
                             "34": [
                                 11, 
                                 58
@@ -1216,16 +1862,16 @@
                         }
                     }, 
                     "PresShell::Paint": {
-                        "domLoading_to_loadEventEnd.timeunit": {
-                            "614": [
-                                614
-                            ]
-                        }, 
-                        "PageDown.timeunit": {
+                        "page_down.timeunit": {
                             "108": [
                                 108, 
                                 120, 
                                 97
+                            ]
+                        }, 
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "614": [
+                                614
                             ]
                         }
                     }, 
@@ -1237,15 +1883,15 @@
                         }
                     }, 
                     "PresShell::Flush (Flush_Style)": {
-                        "domLoading_to_loadEventEnd.timeunit": {
-                            "341": [
-                                341
-                            ]
-                        }, 
-                        "PageDown.timeunit": {
+                        "page_down.timeunit": {
                             "21": [
                                 21, 
                                 21
+                            ]
+                        }, 
+                        "domLoading_to_loadEventEnd.timeunit": {
+                            "341": [
+                                341
                             ]
                         }
                     }, 
